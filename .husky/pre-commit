@@ -1,0 +1,28 @@
+#!/bin/bash
+
+# Run lint before commit
+npm run lint:fix
+
+# Run tests before committing
+#npm test
+
+# Run build before committing
+npm run build
+
+# If tests fail, prevent the commit
+if [ $? -ne 0 ]; then
+    echo "Tests failed. Commit aborted."
+    exit 1
+fi
+
+# If linting fails, prevent the commit  
+if [ $? -ne 0 ]; then
+    echo "Linting failed. Commit aborted."
+    exit 1
+fi
+
+# If build fails, prevent the commit
+if [ $? -ne 0 ]; then
+    echo "Build failed. Commit aborted."
+    exit 1
+fi
