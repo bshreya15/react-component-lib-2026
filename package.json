@@ -1,0 +1,23 @@
+{
+  "name": "react-component-lib-2026",
+  "version": "0.0.1",
+  "description": "This is a react component library",
+  "homepage": "https://github.com/bshreya15/react-component-lib-2026#readme",
+  "bugs": {
+    "url": "https://github.com/bshreya15/react-component-lib-2026/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bshreya15/react-component-lib-2026.git"
+  },
+  "license": "MIT",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "devDependencies": {
+    "typescript": "^6.0.2"
+  },
+  "peerDependencies": {
+    "react": ">=18"
+  }
+}
