@@ -2,7 +2,6 @@ import "@testing-library/jest-dom";
 import { render, screen } from "@testing-library/react";
 import Page from ".";
 
-
 describe("Page component", () => {
   it("renders the title and children correctly", () => {
     // Arrange
@@ -21,7 +20,7 @@ describe("Page component", () => {
     expect(screen.getByText(childText)).toBeInTheDocument();
   });
 
- it("renders the correct styling", () => {
+  it("renders the correct styling", () => {
     // Arrange
     const title = "Test Title";
     const children = "Test Children";

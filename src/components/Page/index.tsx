@@ -1,5 +1,5 @@
-import { PageProps } from './types';
-import { Container } from './styled';
+import { type PageProps } from "./types";
+import { Container } from "./styled";
 
 const Page = ({ title, children }: PageProps): JSX.Element => {
   return (

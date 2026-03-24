@@ -1,6 +1,6 @@
 import type { ReactNode } from "react";
 
-export type PageProps = {
-    title: string;
-    children: ReactNode;
-};
+export interface PageProps {
+  title: string
+  children: ReactNode
+}
