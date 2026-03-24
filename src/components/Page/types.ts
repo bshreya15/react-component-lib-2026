@@ -1,4 +1,6 @@
-export type PageProps ={
+import type { ReactNode } from "react";
+
+export type PageProps = {
     title: string;
-    children: React.ReactNode;
-}
+    children: ReactNode;
+};
